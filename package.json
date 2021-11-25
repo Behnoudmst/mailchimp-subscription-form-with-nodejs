@@ -1,0 +1,23 @@
+{
+  "name": "email-subscription-project",
+  "version": "1.0.0",
+  "description": "An email subscription app to get emails and send them to mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email-list",
+    "email-subscription"
+  ],
+  "author": "Behnoud Mostafaie",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.72",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}

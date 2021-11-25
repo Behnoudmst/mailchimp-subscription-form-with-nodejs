@@ -1,0 +1,28 @@
+button {
+  display: block;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+body {
+  width: 500px;
+  padding: 150px;
+  margin: auto;
+}
+
+input {
+    box-sizing:border-box;
+  display: block;
+  line-height: 2rem;
+  border: none;
+  background-color: beige;
+  width: 100%;
+  margin: 5px 0;
+  padding: 0 5px;
+}
+
+
+p {
+  line-height: 2rem;
+}
