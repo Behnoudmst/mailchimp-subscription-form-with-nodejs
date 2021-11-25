@@ -36,15 +36,13 @@ const listId = "90f850b520";
         LNAME: subscribingUser.lastName
       }, 
     });
-
-     if (response.status === "subscribed") { res.sendFile(__dirname + "/success.html") }
-        else { res.sendFile(__dirname + "/error.html");}
-       
+           
       }
-    
-    run()
   
- 
+  
+    run()
+    .then(()=>res.sendFile(__dirname + "/success.html"))
+    .catch(()=>res.sendFile(__dirname + "/error.html"));
  
     });
 
