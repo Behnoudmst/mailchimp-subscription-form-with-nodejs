@@ -41,10 +41,6 @@ const listId = "90f850b520";
         else { res.sendFile(__dirname + "/error.html");}
        
       }
-  
-       
-    
-
     
     run()
   
@@ -60,6 +56,6 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(3000, () => {
-  console.log("app is running on port 3000");
+app.listen( process.env.PORT || 3000, () => {
+  console.log("app is running");
 });
