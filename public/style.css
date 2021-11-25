@@ -7,6 +7,8 @@ button {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
 }
 button:hover {
   background-color: black;
@@ -14,7 +16,7 @@ button:hover {
   cursor: pointer;
 }
 body {
-  width: 500px;
+  max-width: 500px;
   padding: 150px;
   margin: auto;
   background-color: #fdfdfd;
@@ -41,4 +43,32 @@ p {
 .credit {
   text-align: center;
   font-size: 0.8rem;
+}
+
+.logo {
+  display: block;
+  width:110px;
+  margin-left:auto;
+  margin-right: auto;
+}
+a {
+  color:#444;
+}
+
+.center{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+body{
+  padding: 200px 20px;
+  
+}
+
+root {
+  font-size: 16px;
+}
+
+
 }
